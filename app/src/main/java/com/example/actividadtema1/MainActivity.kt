@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(phoneCallIntent)
         }
         confBinding.url.setOnClickListener {
-            val urlIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com"))
+            val urlIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/DanielSRomero/ActividadTema1"))
             startActivity(urlIntent)
         }
         confBinding.alarm.setOnClickListener {
